@@ -29,7 +29,48 @@ This case study simulates how a Revenue Management analyst would evaluate hotel 
 The main objective of this project is to analyze hotel booking data from a Revenue Management perspective and identify opportunities to improve revenue performance through better segmentation, cancellation management, demand forecasting and pricing strategy.
 
 ---
+## How to Read This Project
 
+This project is designed to be read at different levels depending on the reader's role and available time.
+
+### For HR Recruiters
+
+Start with the Executive Summary to understand the business objective, tools used and main Revenue Management recommendations.
+
+Recommended file:
+
+- `executive_summary/executive_summary.md`
+
+### For Revenue Managers or Hiring Managers
+
+Start with the main README and then review the final strategy recommendations.
+
+Recommended files:
+
+- `README.md`
+- `05_revenue_strategy_recommendations/revenue_strategy_recommendations.md`
+
+### For Technical Reviewers
+
+Review the notebooks inside each analytical module.
+
+Recommended modules:
+
+- `01_segment_performance/segment_performance_analysis.ipynb`
+- `02_cancellation_analysis/cancellation_risk_analysis.ipynb`
+- `03_demand_forecasting/demand_forecasting_by_segment.ipynb`
+- `04_price_elasticity/price_elasticity_analysis.ipynb`
+
+### Suggested Reading Order
+
+1. Executive Summary  
+2. Segment Performance Analysis  
+3. Cancellation Risk Analysis  
+4. Demand Forecasting  
+5. Price Elasticity Analysis  
+6. Revenue Management Strategy Recommendations  
+
+---
 ## Project Modules
 
 ### 01. Segment Performance Analysis
