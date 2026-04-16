@@ -18,6 +18,7 @@ The project is designed to simulate how a Revenue Management analyst would appro
 | Tools | Python, Pandas, Jupyter Notebook, Excel |
 | Output | Business insights, analytical modules and RM recommendations |
 
+**Executive Summary PDF:** [Download here](executive_summary/Hotel_Revenue_Management_Case_Study_Executive_Summary.pdf)
 ---
 
 ## Core Business Question
@@ -68,9 +69,10 @@ This project is designed to be read at different levels depending on the reader'
 
 Start with the Executive Summary to understand the business objective, tools used and main Revenue Management recommendations.
 
-Recommended file:
+Recommended files:
 
-- [Executive Summary](executive_summary/executive_summary.md)
+- [Executive Summary PDF](executive_summary/Hotel_Revenue_Management_Case_Study_Executive_Summary.pdf)
+- [Executive Summary Markdown](executive_summary/executive_summary.md)
 
 ### For Revenue Managers or Hiring Managers
 
