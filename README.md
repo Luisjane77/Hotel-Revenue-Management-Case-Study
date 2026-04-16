@@ -70,7 +70,7 @@ Start with the Executive Summary to understand the business objective, tools use
 
 Recommended file:
 
-- `executive_summary/executive_summary.md`
+- [Executive Summary](executive_summary/executive_summary.md)
 
 ### For Revenue Managers or Hiring Managers
 
@@ -78,8 +78,8 @@ Start with the main README and then review the final strategy recommendations.
 
 Recommended files:
 
-- `README.md`
-- `05_revenue_strategy_recommendations/revenue_strategy_recommendations.md`
+- [Main Project README](README.md)
+- [Revenue Management Strategy Recommendations](05_revenue_strategy_recommendations/revenue_strategy_recommendations.md)
 
 ### For Technical Reviewers
 
@@ -87,19 +87,19 @@ Review the notebooks inside each analytical module.
 
 Recommended modules:
 
-- `01_segment_performance/segment_performance_analysis.ipynb`
-- `02_cancellation_analysis/cancellation_risk_analysis.ipynb`
-- `03_demand_forecasting/demand_forecasting_by_segment.ipynb`
-- `04_price_elasticity/price_elasticity_analysis.ipynb`
+- [Segment Performance Analysis Notebook](01_segment_performance/segment_performance_analysis.ipynb)
+- [Cancellation Risk Analysis Notebook](02_cancellation_analysis/cancellation_risk_analysis.ipynb)
+- [Demand Forecasting Notebook](03_demand_forecasting/demand_forecasting_by_segment.ipynb)
+- [Price Elasticity Analysis Notebook](04_price_elasticity/price_elasticity_analysis.ipynb)
 
 ### Suggested Reading Order
 
-1. Executive Summary  
-2. Segment Performance Analysis  
-3. Cancellation Risk Analysis  
-4. Demand Forecasting  
-5. Price Elasticity Analysis  
-6. Revenue Management Strategy Recommendations  
+1. [Executive Summary](executive_summary/executive_summary.md)  
+2. [Segment Performance Analysis](01_segment_performance/README.md)  
+3. [Cancellation Risk Analysis](02_cancellation_analysis/README.md)  
+4. [Demand Forecasting](03_demand_forecasting/README.md)  
+5. [Price Elasticity Analysis](04_price_elasticity/README.md)  
+6. [Revenue Management Strategy Recommendations](05_revenue_strategy_recommendations/revenue_strategy_recommendations.md)  
 
 ---
 ## Project Modules
@@ -118,7 +118,7 @@ The analysis focuses on identifying which segments generate strong revenue value
 - ADR by segment
 - Segment value comparison
 
-**Folder:** `01_segment_performance`
+**Folder:** [01_segment_performance](01_segment_performance/)
 
 ---
 
@@ -136,7 +136,7 @@ The objective is to understand how cancellations affect net revenue, forecast ac
 - Channel risk
 - Net revenue impact
 
-**Folder:** `02_cancellation_analysis`
+**Folder:** [02_cancellation_analysis](02_cancellation_analysis/)
 
 ---
 
@@ -154,7 +154,7 @@ The objective is to support pricing and inventory decisions by understanding exp
 - Future demand estimation
 - Forecast-based pricing support
 
-**Folder:** `03_demand_forecasting`
+**Folder:** [03_demand_forecasting](03_demand_forecasting/)
 
 ---
 
@@ -172,7 +172,7 @@ The goal is to evaluate whether demand reacts strongly or weakly to price change
 - Seasonality effects
 - Pricing power by segment
 
-**Folder:** `04_price_elasticity`
+**Folder:** [04_price_elasticity](04_price_elasticity/)
 
 ---
 
@@ -190,10 +190,60 @@ The objective is to translate the analysis into recommendations related to prici
 - Cancellation risk management
 - Inventory protection
 
-**Folder:** `05_revenue_strategy_recommendations`
+**Folder:** [05_revenue_strategy_recommendations](05_revenue_strategy_recommendations/)
+
+---
+## Key Findings
+
+The analysis highlights several Revenue Management insights that can support better hotel decision-making.
+
+### 1. Segment performance should not be evaluated only by volume
+
+Some segments may generate strong room night volume, but this does not always mean they generate proportional revenue value.
+
+Revenue Management decisions should compare room nights, revenue and ADR together to understand the real value of each segment.
 
 ---
 
+### 2. Direct demand can represent stronger revenue value
+
+Direct bookings may provide stronger value when compared with volume-heavy channels, especially if they show better ADR contribution or lower dependency costs.
+
+This supports the importance of monitoring direct demand and not relying only on high-volume intermediary channels.
+
+---
+
+### 3. Cancellations affect both revenue and forecast accuracy
+
+Cancellation behavior can create a false sense of demand if only gross bookings are analyzed.
+
+For Revenue Management, cancellation patterns should be considered when evaluating net demand, overbooking assumptions and inventory availability.
+
+---
+
+### 4. Demand forecasting should be segmented
+
+A total hotel forecast can hide important differences between customer segments.
+
+Forecasting demand by segment and month allows the hotel to better understand expected demand composition and adapt pricing or inventory decisions accordingly.
+
+---
+
+### 5. Price elasticity must be interpreted carefully
+
+The relationship between ADR and demand is influenced by seasonality, segment mix and demand pressure.
+
+A weak or positive elasticity result may indicate that price is reacting to market demand, rather than demand being directly caused by price changes.
+
+---
+
+### 6. Inventory protection is key during high-demand periods
+
+When demand is strong, accepting too much low-yield or high-risk business too early can limit the ability to capture higher-value demand later.
+
+Revenue Management should consider segment value, cancellation risk and expected demand before allocating inventory.
+
+---
 ## Key Revenue Management Metrics Used
 
 This project uses several core hotel Revenue Management metrics and analytical variables:
