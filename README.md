@@ -4,9 +4,40 @@
 
 This repository presents an end-to-end hotel Revenue Management case study based on hotel booking data.
 
-The goal of this project is to demonstrate how booking data can be transformed into practical Revenue Management insights, supporting decisions related to segmentation, cancellation risk, demand forecasting, pricing and revenue strategy.
+The project is designed to simulate how a Revenue Management analyst would approach a hotel performance analysis: transforming booking data into business metrics, identifying revenue opportunities and translating findings into practical commercial recommendations.
 
-Rather than treating the analysis as isolated technical exercises, this project is structured as a complete business case: from data preparation and metric calculation to strategic recommendations.
+---
+
+## Project Snapshot
+
+| Area | Description |
+|---|---|
+| Industry | Hospitality / Hotel Revenue Management |
+| Main Focus | Segmentation, cancellations, demand forecasting and pricing strategy |
+| Business Goal | Improve revenue performance through better analytical decision-making |
+| Tools | Python, Pandas, Jupyter Notebook, Excel |
+| Output | Business insights, analytical modules and RM recommendations |
+
+---
+
+## Core Business Question
+
+**How can hotel booking data be used to support better Revenue Management decisions around segmentation, cancellations, demand forecasting and pricing strategy?**
+
+---
+
+## Main Value of the Project
+
+This project demonstrates the ability to connect technical data analysis with practical Revenue Management thinking.
+
+The main value is not only in calculating metrics, but in using those metrics to support decisions related to:
+
+- Segment prioritization
+- Channel and cancellation risk
+- Demand forecasting
+- Price sensitivity
+- Inventory protection
+- Revenue strategy
 
 ---
 
